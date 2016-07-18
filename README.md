@@ -24,7 +24,7 @@ I use the following open data sources:
 ## Modeling and Analysis
 
 ## Plots
-Plot 1: Aid and its coverage
+Plot 1: Aid and its media coverage
 I aim to show discrepancy between actual aid disbursed and news about aid and development assistance.
 
 Plot 2: Alignment with US and Aid
@@ -39,5 +39,10 @@ Plot 2: Alignment with US and Aid
 Plot 3: Aid and conflict
 * American development aid is either going to countries with significant levels of conflict, or breeding conflict
 * Understanding periods and countries for which this was less prominent might allow us to reduce the potential for aid to bring conflict
+
+Plot 4: Tableau dashboard embedded, allowing for interactivity (filter by regime, sentiment and eras)
+* Conflict and its media coverage
+* Conflict and Aid (included above)
+* US alignmend and Aid (included above)
 
 ## Video
