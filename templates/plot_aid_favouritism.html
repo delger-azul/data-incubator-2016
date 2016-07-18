@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap-theme.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/font-awesome/css/font-awesome.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap-social.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/mystyles.css') }}">
+    <title>Delger Enkhbayar Heroku</title>
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-inner">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li>
+                    <a href="./">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true">
+                      </span> Project Description
+                    </a>
+                  </li>
+                  <li class="dropdown active">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                       <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                       Plots <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="plot_aid_coverage">Aid and Media Coverage</a></li>
+                          <li><a href="plot_aid_favouritism">Favouritism and Fight for Aid</a></li>
+                          <li><a href="plot_aid_conflict">Aid and Conflict</a></li>
+                          <li><a href="tableau">Interactive Visualization</a></li>
+                          <!-- <li role="separator" class="divider"></li> -->
+                        </ul>
+                  </li>
+                  <li>
+                    <a href="aboutme"><i class="fa fa-envelope-o"></i>About Me</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        </div>
+      </div>
+  <div id="wrapper">
+  <div class="container">
+      <!-- Start About me section -->
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <!-- Avatar Image -->
+              <img src="../static/Favouritism and Fight for Aid.png" alt="plot_aid_favouritism" class="img-responsive img-profile thumbnail">
+          </div>
+      </div>
+  </div>
+  </div>
+  <footer class="row-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12">
+                  <div style="padding: 0px 0px 0px 400px;">
+                    <div align=center class="nav navbar-nav" style="padding: 40px 10px;">
+                        <a class="btn btn-sm btn-social-icon btn-google-plus" href="http://google.com/+DelgerEnkhbayar"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=owldy"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/delger-borjigon-enkhbayar-7ab163120"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-twitter" href="http://twitter.com/delger0107"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-youtube" href="http://www.youtube.com/c/DelgerEnkhbayar"><i class="fa fa-youtube"></i></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="{{ url_for('static',filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+  <script>
+    $(document).ready(function(){
+      $('#mycarousel').carousel({interval: 2000});
+      $('#carousel-pause').click(function(){
+        $('#mycarousel').carousel('pause');
+      });
+      $('#carousel-play').click(function(){
+        $('#mycarousel').carousel('cycle');
+      });
+    });
+  </script>
+</body>
+</html>
