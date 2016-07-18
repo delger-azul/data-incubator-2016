@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="../static/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../static/css/bootstrap-social.css" rel="stylesheet">
-    <link href="../static/css/mystyles.css" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap-theme.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/font-awesome/css/font-awesome.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap-social.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/mystyles.css') }}">
     <title>Delger Enkhbayar Heroku</title>
 </head>
 
@@ -27,7 +27,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                   <li class="active">
-                    <a href="index.html">
+                    <a href="index">
                       <span class="glyphicon glyphicon-home" aria-hidden="true">
                       </span> Project Description
                     </a>
@@ -44,7 +44,7 @@
                         </ul>
                   </li>
                   <li>
-                    <a href="aboutme.html"><i class="fa fa-envelope-o">About Me</i></a>
+                    <a href="aboutme"><i class="fa fa-envelope-o">About Me</i></a>
                   </li>
               </ul>
             </div>
@@ -89,7 +89,7 @@
         <h2 class="sub-title"><i class="fa fa-slack"></i>WORK EXPERIENCE</h2>
         <ul class="timeline">
             <li>
-                <div class="timeline-badge mid-night">2015</div>
+                <div class="timeline-badge mid-night">2015 - 2016</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="timeline-title">Research Software Engineer</h4>
@@ -101,7 +101,7 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-badge mid-night">2015</div>
+                <div class="timeline-badge mid-night">2013 - 2015</div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="timeline-title">Organizational Consultant</h4>
@@ -155,6 +155,7 @@
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4 class="timeline-title">BSc in Economics</h4>
+                        <p><small class="text-muted">London School of Economics</small></p>
                     </div>
                 </div>
             </li>
@@ -277,8 +278,8 @@
               </div>
           </div>
       </footer>
-      <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="{{ url_for('static',filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+      <script src="{{ url_for('static',filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
       <script>
         $(document).ready(function(){
           $('#mycarousel').carousel({interval: 2000});
