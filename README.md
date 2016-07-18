@@ -4,7 +4,7 @@
 
 Public misinformation about foreign aid and development assistance seems to undermine its public support in developed countries. More than 30 billion dollars is allocated to aid for Africa by the Development Assistance Committee (USA, EU etc.) every year. The public seems to think much more is allocated towards aid as a share of GDP, and systematically think the US should provide lower levels of aid. 
 
-The lack of transparency may not allow the public to demand aid to be used according to citizens' will, and to have an informed debate on how to allocate aid. To help with this this project aims to:
+The lack of transparency may not allow the public to demand aid to be used according to citizens' will, and to have an informed debate on how to allocate aid. To help with this, this project aims to:
 * Improve transparency of aid to countries in Africa, and tell citizens what aid is buying
 * Show the periods and places where foreign aid has been the most effective/most costly
 * Provide tools for policy makers on how to inform the audience on aid
@@ -17,7 +17,9 @@ I use the following open data sources:
   * Interesting for capturing news about events across time and space
   * I use it to capture news (intensity of news) about aid and conflict intensity
 * UN Voting database to gauge alignment with US
-* Development Assistance
+    * [Data Link](http://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12379)
+* Development Assistance Committee: aid commitments to countries and regions
+    * [Data Link](http://stats.oecd.org/Index.aspx?DataSetCode=TABLE3A)
 
 ## Modeling and Analysis
 
