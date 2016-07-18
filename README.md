@@ -24,6 +24,9 @@ I use the following open data sources:
 
 ## Modeling and Analysis
 
+* Use Tableau to connect to Google BigQuery
+* Regression analysis for favouritism and aid, aid and conflict
+
 ## Plots
 Plot 1: Aid and its media coverage
 I aim to show discrepancy between actual aid disbursed and news about aid and development assistance.
