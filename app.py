@@ -5,5 +5,9 @@ app = Flask(__name__)
 def hello(name=None):
     return render_template('index.html', name=name)
 
+@app.route('/aboutus')
+def hello(name=None):
+    return render_template('aboutus.html', name=name)
+
 if __name__ == '__main__':
     app.run(port=33507)
