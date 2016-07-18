@@ -14,7 +14,7 @@ def plot1(name=None):
     return render_template('plot_aid_coverage.html', name=name)
 
 @app.route('/tableau')
-def plot1(name=None):
+def tableau(name=None):
     return render_template('tableau.html', name=name)
 
 if __name__ == '__main__':
