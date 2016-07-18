@@ -204,12 +204,8 @@ hr
 
 /* Button
 ---------------------------*/
-/*.btn
-{
-    min-width: 115px;
-}*/
 
-.btn-inverse
+/*.btn-inverse
 {
     color: #FFF;
     background-color: #34495E;
@@ -225,4 +221,4 @@ hr
 .btn-download, .btn-print
 {
     margin-bottom: 5px;
-}
+}*/
