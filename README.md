@@ -11,15 +11,16 @@ The lack of transparency may not allow the public to demand aid to be used accor
 
 ## Data Source
 
+[All data post-scraping, post-querying and post-processing made available through Tableau: just click on download data](http://data-incubator-delger.herokuapp.com/tableau)
 I use the following open data sources:
 * GDELT (the Global Database of Events, Language and Tone) database
   * Regarded as "the largest, most comprehensive, and highest resolution open database of human society ever created".
   * Interesting for capturing news about events across time and space
   * I use it to capture news (intensity of news) about aid and conflict intensity
 * UN Voting database to gauge alignment with US
-    * [Data Link](http://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12379)
+    * [Original data link](http://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12379)
 * Development Assistance Committee: aid commitments to countries and regions
-    * [Data Link](http://stats.oecd.org/Index.aspx?DataSetCode=TABLE3A)
+    * [Original data link](http://stats.oecd.org/Index.aspx?DataSetCode=TABLE3A)
 
 ## Modeling and Analysis
 
