@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/mystyles.css" rel="stylesheet">
+    <title>Delger Enkhbayar Heroku</title>
+</head>
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-inner">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li class="active">
+                    <a href="index.html">
+                      <span class="glyphicon glyphicon-home" aria-hidden="true">
+                      </span> Project Description
+                    </a>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       role="button" aria-haspopup="true" aria-expanded="false">
+                       <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                       Plots <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Plot 1</a></li>
+                          <li><a href="#">Plot 2</a></li>
+                          <!-- <li role="separator" class="divider"></li> -->
+                        </ul>
+                  </li>
+                  <li>
+                    <a href="aboutus.html"><i class="fa fa-envelope-o">About Me</i></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        </div>
+      </div>
+    <div id="mycarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+      <div class="item active">
+        <!-- <img class="img-responsive"
+         src="img/uthappizza.png" alt="Uthappizza"> -->
+         <img src="http://lorempixel.com/1280/1024/abstract" alt="">
+         <div class="container">
+         <div class="carousel-caption">
+           <h1>Example headline</h1>
+           <p class="lead">Example description</p>
+           <p><a class="btn btn-primary btn-large" href="#">More &raquo;</a></p>
+         </div>
+       </div>
+      </div>
+    </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+      <div class="btn-group" id="carouselButtons">
+        <button class="btn btn-danger btn-xs" id="carousel-pause">
+          <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+        </button>
+        <button class="btn btn-danger btn-xs" id="carousel-play">
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <footer class="row-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div style="padding: 0px 0px 0px 400px;">
+                      <div align=center class="nav navbar-nav" style="padding: 40px 10px;">
+                          <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+DelgerEnkhbayar"><i class="fa fa-google-plus"></i></a>
+                          <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=owldy"><i class="fa fa-facebook"></i></a>
+                          <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/delger-borjigon-enkhbayar-7ab163120"><i class="fa fa-linkedin"></i></a>
+                          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/delger0107"><i class="fa fa-twitter"></i></a>
+                          <a class="btn btn-social-icon btn-youtube" href="http://www.youtube.com/c/DelgerEnkhbayar"><i class="fa fa-youtube"></i></a>
+                          <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#mycarousel').carousel({interval: 2000});
+        $('#carousel-pause').click(function(){
+          $('#mycarousel').carousel('pause');
+        });
+        $('#carousel-play').click(function(){
+          $('#mycarousel').carousel('cycle');
+        });
+      });
+    </script>
+</body>
+
+</html>
