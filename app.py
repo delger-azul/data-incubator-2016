@@ -19,7 +19,7 @@ def plot2(name=None):
 
 @app.route('/plot_aid_favouritism')
 def plot3(name=None):
-    return render_template('plot_aid_favouritism.html', name=name)
+    return render_template('plot_aid_conflict.html', name=name)
 
 @app.route('/tableau')
 def tableau(name=None):

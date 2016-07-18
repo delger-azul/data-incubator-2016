@@ -60,13 +60,7 @@
       <div class="row">
           <div class="col-sm-12 text-center">
               <!-- Avatar Image -->
-              <iframe
-                style="border: 0px;"
-                src="https://public.tableau.com/profile/google.big.data.challenge#!/vizhome/FavouritismandFightforAid/FavouritismandFightforAid?:embed=y&amp;:from_wg=true"
-                scrolling="no"
-                width="1000px"
-                height="859px">
-              </iframe>
+              <img src="../static/Aid and Conflict.png" alt="plot_aid_conflict" class="img-responsive img-profile thumbnail">
           </div>
       </div>
   </div>
