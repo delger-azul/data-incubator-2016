@@ -17,7 +17,7 @@ def plot1(name=None):
 def plot2(name=None):
     return render_template('plot_aid_favouritism.html', name=name)
 
-@app.route('/plot_aid_favouritism')
+@app.route('/plot_aid_conflict')
 def plot3(name=None):
     return render_template('plot_aid_conflict.html', name=name)
 
