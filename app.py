@@ -9,5 +9,9 @@ def hello(name=None):
 def about(name=None):
     return render_template('aboutme.html', name=name)
 
+@app.route('/plot_aid_coverage')
+def plot1(name=None):
+    return render_template('plot_aid_coverage.html', name=name)
+
 if __name__ == '__main__':
     app.run(port=33507)

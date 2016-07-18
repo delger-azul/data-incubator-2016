@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/bootstrap/dist/css/bootstrap-theme.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bower_components/font-awesome/css/font-awesome.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap-social.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/mystyles.css') }}">
+    <title>Delger Enkhbayar Heroku</title>
+</head>
+
+<body>
+  <div class="container">
+      <!-- Start About me section -->
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <!-- Avatar Image -->
+              <img src="../static/Media Coverage and Aid.png" alt="plot_aid_coverage" class="img-responsive img-profile thumbnail">
+          </div>
+      </div>
+  </div>
+  <footer class="row-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12">
+                  <div style="padding: 0px 0px 0px 400px;">
+                    <div align=center class="nav navbar-nav" style="padding: 40px 10px;">
+                        <a class="btn btn-sm btn-social-icon btn-google-plus" href="http://google.com/+DelgerEnkhbayar"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=owldy"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/delger-borjigon-enkhbayar-7ab163120"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-twitter" href="http://twitter.com/delger0107"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-sm btn-social-icon btn-youtube" href="http://www.youtube.com/c/DelgerEnkhbayar"><i class="fa fa-youtube"></i></a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="{{ url_for('static',filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+  <script>
+    $(document).ready(function(){
+      $('#mycarousel').carousel({interval: 2000});
+      $('#carousel-pause').click(function(){
+        $('#mycarousel').carousel('pause');
+      });
+      $('#carousel-play').click(function(){
+        $('#mycarousel').carousel('cycle');
+      });
+    });
+  </script>
+</body>
+</html>
