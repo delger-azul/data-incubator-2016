@@ -6,7 +6,7 @@ def hello(name=None):
     return render_template('index.html', name=name)
 
 @app.route('/aboutme')
-def hello(name=None):
+def about(name=None):
     return render_template('aboutme.html', name=name)
 
 if __name__ == '__main__':
