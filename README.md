@@ -11,7 +11,7 @@ The lack of transparency may not allow the public to demand aid to be used accor
 
 ## Data Source
 
-[All data post-scraping, post-querying and post-processing made available through Tableau: just click on download data](http://data-incubator-delger.herokuapp.com/tableau)
+All data post-scraping, post-querying and post-processing made available through Tableau. [Download data here.](http://data-incubator-delger.herokuapp.com/tableau).
 I use the following open data sources:
 * GDELT (the Global Database of Events, Language and Tone) database
   * Regarded as "the largest, most comprehensive, and highest resolution open database of human society ever created".
