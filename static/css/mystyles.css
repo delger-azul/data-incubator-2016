@@ -204,10 +204,10 @@ hr
 
 /* Button
 ---------------------------*/
-.btn
+/*.btn
 {
     min-width: 115px;
-}
+}*/
 
 .btn-inverse
 {
@@ -215,12 +215,12 @@ hr
     background-color: #34495E;
 }
 
-    .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active
-    {
-        color: #FFF;
-        background-color: #415B76;
-        border-color: #415B76;
-    }
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active
+{
+    color: #FFF;
+    background-color: #415B76;
+    border-color: #415B76;
+}
 
 .btn-download, .btn-print
 {
